@@ -1,97 +1,148 @@
-﻿// Exercício 1 e Exercício 2
+int exercio = int.Parse(Console.ReadLine());
 
-string repetir;
-int negativo = 0, positivo = 0, zero = 0, num, cont1 = 0, cont2 = 0, cont3 = 0;
-
-do {
-    Console.WriteLine("Digite algum número positivo, negativo ou zero");
-    num = int.Parse(Console.ReadLine());
-    
-    if (num > 0)
-    {
-        positivo = num;
-        positivo++;
-        cont1++;
-    }
-    if (num < 0)
-    {
-        negativo = num;
-        negativo++;
-        cont2++;
-    }
-    if (num == 0)
-    {
-        zero = num;
-        zero++;
-        cont3++;
-    }
-    
-    Console.WriteLine("Valor do número positivo " + positivo);
-    Console.WriteLine("Valor do número negativo " + negativo);
-    Console.WriteLine("Valor do zero " + zero);
-    Console.WriteLine("O percentual de vezes que números positivos foram contadados é : " + cont1);
-    Console.WriteLine("O percentual de vezes que números negativos foram contados é : " + cont2);
-    Console.WriteLine("O percentual de vezes que os zeros foram contados é : " + cont3);
-
-    Console.WriteLine("Deseja continuar? (Sim/Não ou S/N)");
-    repetir = Console.ReadLine();
-
-} while ((repetir == "Sim")||(repetir == "S"));
-
-// Exercício 3 
-
-int cont = 0;
-double nume;
-
-do
+switch (exercio)
 {
-    cont++;
 
-    Console.WriteLine("Digite um número");
-    nume = double.Parse(Console.ReadLine());
+    case 1:
+    
+        // Exercício 1 e Exercício 2
 
-    if (((nume % 2) == 0) && ((nume % 5) == 0))
-    {
-        Console.WriteLine("Seu número é divisível por 2 e por 5");
-    }
-    if (((nume % 3) == 0) && ((nume % 9) == 0))
-    {
-        Console.WriteLine("Seu número é divisível por 3 e por 9");
-    }
-    else 
-    {
-        Console.WriteLine("Seu número não é divisível por 2, por 3, por 5 e nem por 9");
-    }
+        string repetir;
+        int negativo = 0, positivo = 0, zero = 0, num, cont1 = 0, cont2 = 0, cont3 = 0;
 
-} while (cont < 10);
+        do
+        {
+            Console.WriteLine("Digite algum número positivo, negativo ou zero");
+            num = int.Parse(Console.ReadLine());
 
-// Exercício 4 
+            if (num > 0)
+            {
+                positivo = num;
+                positivo++;
+                cont1++;
+            }
+            if (num < 0)
+            {
+                negativo = num;
+                negativo++;
+                cont2++;
+            }
+            if (num == 0)
+            {
+                zero = num;
+                zero++;
+                cont3++;
+            }
 
-int fato = 0, fatorial = 5;
+            Console.WriteLine("Deseja continuar? (Sim/Não ou S/N)");
+            repetir = Console.ReadLine();
 
-// Console.WriteLine("Digite um valor");
+        } while ((repetir == "Sim") || (repetir == "S"));
 
-for (int i = fatorial; i >= x; i--){
-    fatorial *= x;
-    Console.WriteLine("O valor fatorial é : " + fato);
-}    
+        Console.WriteLine("Valor do número positivo " + positivo);
+        Console.WriteLine("Valor do número negativo " + negativo);
+        Console.WriteLine("Valor do zero " + zero);
+        Console.WriteLine("O percentual de vezes que números positivos foram contadados é : " + cont1);
+        Console.WriteLine("O percentual de vezes que números negativos foram contados é : " + cont2);
+        Console.WriteLine("O percentual de vezes que os zeros foram contados é : " + cont3);
+        break;
 
-// Exercício 5 
+    case 2:
 
-int e = 1, quantidade, resul;
+        // Exercício 3 
 
-Console.WriteLine("Digite o valor de quantidade de divisão que você deseja fazer");
-quantidade = int.Parse(Console.ReadLine());
+        int cont = 0;
+        double nume;
 
-if (quantidade > 0)
-{
-    for (int i = 0; i < quantidade; i++)
-    {
-        resul = e / i;
-    }
-    Console.WriteLine("O valor total é de : + resul");
+        do
+        {
+            cont++;
 
+            Console.WriteLine("Digite um número");
+            nume = double.Parse(Console.ReadLine());
+
+            if (((nume % 2) == 0) && ((nume % 5) == 0))
+            {
+                Console.WriteLine("Seu número é divisível por 2 e por 5");
+            }
+            if (((nume % 3) == 0) && ((nume % 9) == 0))
+            {
+                Console.WriteLine("Seu número é divisível por 3 e por 9");
+            }
+            else
+            {
+                Console.WriteLine("Seu número não é divisível por 2, por 3, por 5 e nem por 9");
+            }
+        } while (cont < 10);
+
+        break;
+
+    case 3:
+
+        // Exercício 4 
+
+        int fatorial = 0;
+
+        Console.Write("Digite um número natural: ");
+        int numero = int.Parse(Console.ReadLine());
+
+        for (int i = numero; i > 0; i--)
+        {
+            fatorial *= i;
+        }
+
+        break;
+
+
+    case 4:
+
+        // Exercício 5 
+
+        double e = 1, fatorial1 = 1;
+
+        Console.Write("Digite um valor inteiro e positivo para N: ");
+        int n = int.Parse(Console.ReadLine());
+
+        for (int i = 1; i <= n; i++)
+        {
+            for (int j = 1; j <= i; j++)
+            {
+                fatorial1 *= j;
+            }
+            e += 1 / fatorial1;
+        }
+
+        break;
+
+
+    case 5:
+        break;
+
+
+    case 6:
+        break;
+
+
+    case 7:
+        break;
+
+
+    case 8:
+        break;
+
+
+    case 9:
+        break;
+
+
+    case 10:
+        break;
+
+    default:
+        Console.WriteLine("Digite um número de 1 a 10");
+        break;
 }
+
 
 // Exercício 6 
 
