@@ -136,6 +136,58 @@ switch (exercio)
 
 
     case 10:
+
+        // Exercício 11
+
+        string votos;
+        int votacao, cand1 = 0, cand2 = 0, cand3 = 0, cand4 = 0, vn = 0, veb = 0; // Cand (São os candidatos), Vn (É voto nulo) e Veb (Votos em brancos)
+
+        do
+        {
+            Console.WriteLine("Você deseja vota em qual candidato (Digite 1 / 2 / 3 / 4), caso deseja votar nulo (Digite 5), mas caso deseja votar em branco (Digite 6)");
+            votacao = int.Parse(Console.ReadLine());
+
+            if (votacao == 1)
+            {
+                cand1++;
+            }
+            if (votacao == 2)
+            {
+                cand2++;
+            }
+            if (votacao == 3)
+            {
+                cand3++;
+            }
+            if (votacao == 4)
+            {
+                cand4++;
+            }
+            if (votacao == 5)
+            {
+                vn++;
+            }
+            if (votacao == 6)
+            {
+                veb++;
+            }
+            else
+            {
+                Console.WriteLine("Por favor digite uma das opções");
+            }
+
+            Console.WriteLine("Quantidades de votos para o Candidato1 : " + cand1);
+            Console.WriteLine("Quantidades de votos para o Candidato2 : " + cand2);
+            Console.WriteLine("Quantidades de votos para o Candidato3 : " + cand3);
+            Console.WriteLine("Quantidades de votos para o Candidato4 : " + cand4);
+            Console.WriteLine("Quantidades de votos nulos : " + vn);
+            Console.WriteLine("Quantidades de votos em branco : " + veb);
+
+            Console.WriteLine("Deseja continuar? (Sim/Não)(S/N)");
+            votos = Console.ReadLine();
+
+        } while ((votos == "Sim") || (votos == "S"));
+        break;
         break;
 
     default:
@@ -235,52 +287,6 @@ while (lucro > 0)
     Console.WriteLine("A soma das vendas é de : " + somalu);
 }
 
-// Exercício 11
-
-string votos;
-int votacao, cand1 = 0, cand2 = 0, cand3 = 0, cand4 = 0, vn = 0, veb = 0; // Cand (São os candidatos), Vn (É voto nulo) e Veb (Votos em brancos)
-
-do {
-    Console.WriteLine("Você deseja vota em qual candidato (Digite 1 / 2 / 3 / 4), caso deseja votar nulo (Digite 5), mas caso deseja votar em branco (Digite 6)");
-    votacao = int.Parse(Console.ReadLine());
-
-    if (votacao == 1)
-    {
-        cand1++;
-    }
-    if (votacao == 2)
-    {
-        cand2++;
-    }
-    if (votacao == 3)
-    {
-        cand3++;
-    }
-    if (votacao == 4)
-    {
-        cand4++;
-    }
-    if (votacao == 5)
-    {
-        vn++;
-    }
-    if (votacao == 6)
-    {
-        veb++;
-    }
-    else
-    {
-        Console.WriteLine("Por favor digite uma das opções");
-    }
-
-    Console.WriteLine("Quantidades de votos para o Candidato1 : " + cand1);
-    Console.WriteLine("Quantidades de votos para o Candidato2 : " + cand2);
-    Console.WriteLine("Quantidades de votos para o Candidato3 : " + cand3);
-    Console.WriteLine("Quantidades de votos para o Candidato4 : " + cand4);
-    Console.WriteLine("Quantidades de votos nulos : " + vn);
-    Console.WriteLine("Quantidades de votos em branco : " + veb);
-
-    Console.WriteLine("Deseja continuar? (Sim/Não)(S/N)");
     votos = Console.ReadLine();
 
 }   while ((votos == "Sim")||(votos == "S"));
