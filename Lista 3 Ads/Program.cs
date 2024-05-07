@@ -1,10 +1,11 @@
+Console.WriteLine("Digite o exercício de 1 a 10 OBS: o exercício 1 e 2, e o exercício 8 e 9 estão no mesmo case");
 int exercio = int.Parse(Console.ReadLine());
 
 switch (exercio)
 {
 
     case 1:
-    
+
         // Exercício 1 e Exercício 2
 
         string repetir;
@@ -116,26 +117,134 @@ switch (exercio)
 
 
     case 5:
+        // Exercício 6 
+
+        int habitantes, filhos, mediah, mediaf, percen = 0, maior = 0, soma = 0, clt;
+
+        Console.WriteLine("Digite a quantidade de habitantes que a cidade possui");
+        habitantes = int.Parse(Console.ReadLine());
+
+        Console.WriteLine("Digite a quantidade pessoas que trabalham na cidade");
+        clt = int.Parse(Console.ReadLine());
+
+        Console.WriteLine("Digite a quantidade de filhos que a cidade possui");
+        filhos = int.Parse(Console.ReadLine());
+
+        mediaf = habitantes / filhos;
+
+        for (int i = 1; i < clt; i++)
+        {
+            Console.WriteLine("Digite o seu salário");
+            int salario = int.Parse(Console.ReadLine());
+            soma += salario;
+
+            if (maior < salario)
+            {
+                maior = salario;
+            }
+
+            if (salario == 100)
+            {
+                percen++;
+            }
+        }
+
+        Console.WriteLine("A média do salário dos habitates é : " + soma);
+        Console.WriteLine("A média de filhos entre os habitantes é : " + mediaf);
+        Console.WriteLine("O maior salário é : " + maior);
+        Console.WriteLine("O percentual de pessoa com salário de 100 é : " + percen);
         break;
 
 
     case 6:
+
+        // Exercício 7 
+
+        int soma2 = 0, quant, termo;
+
+        Console.WriteLine("Digite a quantidade de divisões");
+        quant = int.Parse(Console.ReadLine());
+
+        for (int i = 1; i < quant; i++)
+        {
+            termo = 1 / i;
+            soma2 += termo;
+        }
+
+        Console.WriteLine("O valor do calculo das divisões é de : " + soma2);
+
         break;
 
 
     case 7:
+        // Exercício 8 e Exercício 9
+
+        int l, a = 0, b = 1, temp, somaFibonacci = 0;
+
+        Console.WriteLine("Digite a quantidade de números da série de Fibonacci");
+        l = int.Parse(Console.ReadLine());
+
+        for (int i = 0; i < l; i++)
+        {
+            somaFibonacci += a;
+            temp = a;
+            a = b;
+            b = temp + b;
+
+            Console.WriteLine("O valor de b é : " + b);
+        }
+
+        Console.WriteLine("A soma da série Fibonacci é : " + somaFibonacci);
+
         break;
 
 
     case 8:
+
+        // Exercício 10
+
+        int compra = 1, somaCompra = 0, venda, somaVenda = 0, lucro, lucroTotal = 0;
+        int contaluc1 = 0, contaluc2 = 0, contaluc3 = 0;
+
+        while (compra == 0)
+        {
+            Console.WriteLine("Digite o valor da compra");
+            compra = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite o valor do venda");
+            venda = int.Parse(Console.ReadLine());
+
+            somaCompra += compra;
+            somaVenda += venda;
+
+            lucro = ((venda - compra) / compra) * 100;
+
+
+            if (lucro < 10)
+            {
+                contaluc1++;
+                Console.WriteLine("A quantidade de mercadorias que tiveram o lucro menor que 10% é : " + contaluc1);
+            }
+            else if ((lucro >= 10) && (lucro <= 20))
+            {
+                contaluc2++;
+                Console.WriteLine("A quantidade de mercadorias que tiveram o lucro entre 10% e 20% é : " + contaluc2);
+            }
+            else
+            {
+                contaluc3++;
+                Console.WriteLine("A quantidade de mercadorias que tiveram o lucro maior que 20% é : " + contaluc3);
+            }
+
+            lucroTotal = ((somaVenda - somaCompra) / somaCompra) * 100;
+            Console.WriteLine("O lucro total é de : " + lucroTotal);
+            Console.WriteLine("A quantidade de compra total é de : " + somaCompra);
+            Console.WriteLine("A quantidade de venda total é de : " + somaVenda);
+        }
         break;
 
 
     case 9:
-        break;
-
-
-    case 10:
 
         // Exercício 11
 
@@ -188,105 +297,8 @@ switch (exercio)
 
         } while ((votos == "Sim") || (votos == "S"));
         break;
-        break;
 
     default:
         Console.WriteLine("Digite um número de 1 a 10");
         break;
 }
-
-
-// Exercício 6 
-
-int habitantes, filhos, mediah, mediaf, percen = 0, maior = 0, soma = 0, clt;
-
-Console.WriteLine("Digite a quantidade de habitantes que a cidade possui");
-habitantes = int.Parse(Console.ReadLine());
-
-Console.WriteLine("Digite a quantidade pessoas que trabalham na cidade");
-clt = int.Parse(Console.ReadLine());
-
-Console.WriteLine("Digite a quantidade de filhos que a cidade possui");
-filhos = int.Parse(Console.ReadLine());
-
-mediaf = habitantes / filhos;
-
-for (int i = 1; i < clt; i++)
-{
-    Console.WriteLine("Digite o seu salário");
-    int salario = int.Parse(Console.ReadLine());
-    soma += salario;
-
-    if (maior < salario)
-    {
-        maior = salario;
-    }
-    
-    if (salario == 100)
-    {
-        percen++;   
-    }
-}
-
-Console.WriteLine("A média do salário dos habitates é : " + soma);
-Console.WriteLine("A média de filhos entre os habitantes é : " + mediaf);
-Console.WriteLine("O maior salário é : " + maior);
-Console.WriteLine("O percentual de pessoa com salário de 100 é : " + percen);
-
-// Exercício 7 
-
-int s = 1, soma2 = 0, quant;
-
-Console.WriteLine("Digite a quantidade de divisões");
-quant = int.Parse(Console.ReadLine());
-
-for (int i = 1; i < quant; i++)
-{
-    soma2 += i / s ;
-    Console.WriteLine("O valor do calculo das divisões é de : " + soma2);
-} 
-
-// Exercício 8 
-
-int fibonacci = 40, contador = 0;
-
-for (int i = 0; i < fibonacci; i*= 2)
-{
-    contador += i + ( - 1 * (i - 1));
-    Console.WriteLine("O valor da série Fibonacci é : " + contador);
-}
-
-// Exercício 10
-
-int lucro = 1, somalu = 0;
-int contaluc1 = 0, contaluc2 = 0, contaluc3 = 0;
-
-while (lucro > 0)
-{
-    Console.WriteLine("Digite o valor do lucro");
-    lucro = int.Parse(Console.ReadLine());
-
-    somalu += lucro;   
-
-    if (lucro < ((lucro * 0.10) - lucro))
-    {
-        contaluc1++;
-        Console.WriteLine("A quantidade de mercadorias que tiveram o lucro menor que 10% é : " + contaluc1);
-    }
-    else if ((lucro >= ((lucro * 0.10) - lucro))||(lucro <= ((lucro * 0.20) - lucro)))
-    {
-        contaluc2++;
-        Console.WriteLine("A quantidade de mercadorias que tiveram o lucro entre 10% e 20% é : " + contaluc2);
-    }
-    else 
-    {
-        contaluc3++;
-        Console.WriteLine("A quantidade de mercadorias que tiveram o lucro maior que 20% é : " + contaluc3);
-    }
-
-    Console.WriteLine("A soma das vendas é de : " + somalu);
-}
-
-    votos = Console.ReadLine();
-
-}   while ((votos == "Sim")||(votos == "S"));
