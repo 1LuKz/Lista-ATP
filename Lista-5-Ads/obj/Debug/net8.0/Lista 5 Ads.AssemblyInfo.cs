@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lista 5 Ads")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+23cf4895a0430d9ba959feb7d640dec46cd4edc7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+252eeea9d7e6d273a5145b7c50bb7016ac877d0c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lista 5 Ads")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lista 5 Ads")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
