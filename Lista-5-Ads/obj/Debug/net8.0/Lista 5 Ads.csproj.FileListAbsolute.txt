@@ -1,0 +1,30 @@
+C:\Users\17044791697\Documents\atp\Lista-ATP\Lista 5 Ads\bin\Debug\net8.0\Lista 5 Ads.exe
+C:\Users\17044791697\Documents\atp\Lista-ATP\Lista 5 Ads\bin\Debug\net8.0\Lista 5 Ads.deps.json
+C:\Users\17044791697\Documents\atp\Lista-ATP\Lista 5 Ads\bin\Debug\net8.0\Lista 5 Ads.runtimeconfig.json
+C:\Users\17044791697\Documents\atp\Lista-ATP\Lista 5 Ads\bin\Debug\net8.0\Lista 5 Ads.dll
+C:\Users\17044791697\Documents\atp\Lista-ATP\Lista 5 Ads\bin\Debug\net8.0\Lista 5 Ads.pdb
+C:\Users\17044791697\Documents\atp\Lista-ATP\Lista 5 Ads\obj\Debug\net8.0\Lista 5 Ads.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\17044791697\Documents\atp\Lista-ATP\Lista 5 Ads\obj\Debug\net8.0\Lista 5 Ads.AssemblyInfoInputs.cache
+C:\Users\17044791697\Documents\atp\Lista-ATP\Lista 5 Ads\obj\Debug\net8.0\Lista 5 Ads.AssemblyInfo.cs
+C:\Users\17044791697\Documents\atp\Lista-ATP\Lista 5 Ads\obj\Debug\net8.0\Lista 5 Ads.csproj.CoreCompileInputs.cache
+C:\Users\17044791697\Documents\atp\Lista-ATP\Lista 5 Ads\obj\Debug\net8.0\Lista 5 Ads.sourcelink.json
+C:\Users\17044791697\Documents\atp\Lista-ATP\Lista 5 Ads\obj\Debug\net8.0\Lista 5 Ads.dll
+C:\Users\17044791697\Documents\atp\Lista-ATP\Lista 5 Ads\obj\Debug\net8.0\refint\Lista 5 Ads.dll
+C:\Users\17044791697\Documents\atp\Lista-ATP\Lista 5 Ads\obj\Debug\net8.0\Lista 5 Ads.pdb
+C:\Users\17044791697\Documents\atp\Lista-ATP\Lista 5 Ads\obj\Debug\net8.0\Lista 5 Ads.genruntimeconfig.cache
+C:\Users\17044791697\Documents\atp\Lista-ATP\Lista 5 Ads\obj\Debug\net8.0\ref\Lista 5 Ads.dll
+C:\Users\17044791697\Documents\atp\Lista-ATP\Lista-5-Ads\obj\Debug\net8.0\Lista 5 Ads.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\17044791697\Documents\atp\Lista-ATP\Lista-5-Ads\obj\Debug\net8.0\Lista 5 Ads.AssemblyInfoInputs.cache
+C:\Users\17044791697\Documents\atp\Lista-ATP\Lista-5-Ads\obj\Debug\net8.0\Lista 5 Ads.AssemblyInfo.cs
+C:\Users\17044791697\Documents\atp\Lista-ATP\Lista-5-Ads\obj\Debug\net8.0\Lista 5 Ads.csproj.CoreCompileInputs.cache
+C:\Users\17044791697\Documents\atp\Lista-ATP\Lista-5-Ads\obj\Debug\net8.0\Lista 5 Ads.sourcelink.json
+C:\Users\17044791697\Documents\atp\Lista-ATP\Lista-5-Ads\obj\Debug\net8.0\Lista 5 Ads.dll
+C:\Users\17044791697\Documents\atp\Lista-ATP\Lista-5-Ads\obj\Debug\net8.0\refint\Lista 5 Ads.dll
+C:\Users\17044791697\Documents\atp\Lista-ATP\Lista-5-Ads\obj\Debug\net8.0\Lista 5 Ads.pdb
+C:\Users\17044791697\Documents\atp\Lista-ATP\Lista-5-Ads\bin\Debug\net8.0\Lista 5 Ads.exe
+C:\Users\17044791697\Documents\atp\Lista-ATP\Lista-5-Ads\bin\Debug\net8.0\Lista 5 Ads.deps.json
+C:\Users\17044791697\Documents\atp\Lista-ATP\Lista-5-Ads\bin\Debug\net8.0\Lista 5 Ads.runtimeconfig.json
+C:\Users\17044791697\Documents\atp\Lista-ATP\Lista-5-Ads\bin\Debug\net8.0\Lista 5 Ads.dll
+C:\Users\17044791697\Documents\atp\Lista-ATP\Lista-5-Ads\bin\Debug\net8.0\Lista 5 Ads.pdb
+C:\Users\17044791697\Documents\atp\Lista-ATP\Lista-5-Ads\obj\Debug\net8.0\Lista 5 Ads.genruntimeconfig.cache
+C:\Users\17044791697\Documents\atp\Lista-ATP\Lista-5-Ads\obj\Debug\net8.0\ref\Lista 5 Ads.dll

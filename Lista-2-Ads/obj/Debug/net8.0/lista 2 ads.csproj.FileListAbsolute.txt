@@ -1,0 +1,28 @@
+C:\Users\lukin\OneDrive\Área de Trabalho\lista 2 ads\bin\Debug\net8.0\lista 2 ads.exe
+C:\Users\lukin\OneDrive\Área de Trabalho\lista 2 ads\bin\Debug\net8.0\lista 2 ads.deps.json
+C:\Users\lukin\OneDrive\Área de Trabalho\lista 2 ads\bin\Debug\net8.0\lista 2 ads.runtimeconfig.json
+C:\Users\lukin\OneDrive\Área de Trabalho\lista 2 ads\bin\Debug\net8.0\lista 2 ads.dll
+C:\Users\lukin\OneDrive\Área de Trabalho\lista 2 ads\bin\Debug\net8.0\lista 2 ads.pdb
+C:\Users\lukin\OneDrive\Área de Trabalho\lista 2 ads\obj\Debug\net8.0\lista 2 ads.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lukin\OneDrive\Área de Trabalho\lista 2 ads\obj\Debug\net8.0\lista 2 ads.AssemblyInfoInputs.cache
+C:\Users\lukin\OneDrive\Área de Trabalho\lista 2 ads\obj\Debug\net8.0\lista 2 ads.AssemblyInfo.cs
+C:\Users\lukin\OneDrive\Área de Trabalho\lista 2 ads\obj\Debug\net8.0\lista 2 ads.csproj.CoreCompileInputs.cache
+C:\Users\lukin\OneDrive\Área de Trabalho\lista 2 ads\obj\Debug\net8.0\lista 2 ads.dll
+C:\Users\lukin\OneDrive\Área de Trabalho\lista 2 ads\obj\Debug\net8.0\refint\lista 2 ads.dll
+C:\Users\lukin\OneDrive\Área de Trabalho\lista 2 ads\obj\Debug\net8.0\lista 2 ads.pdb
+C:\Users\lukin\OneDrive\Área de Trabalho\lista 2 ads\obj\Debug\net8.0\lista 2 ads.genruntimeconfig.cache
+C:\Users\lukin\OneDrive\Área de Trabalho\lista 2 ads\obj\Debug\net8.0\ref\lista 2 ads.dll
+D:\Meu Pc\Programação\Faculdade\Lista 2 Ads\obj\Debug\net8.0\lista 2 ads.GeneratedMSBuildEditorConfig.editorconfig
+D:\Meu Pc\Programação\Faculdade\Lista 2 Ads\obj\Debug\net8.0\lista 2 ads.AssemblyInfoInputs.cache
+D:\Meu Pc\Programação\Faculdade\Lista 2 Ads\obj\Debug\net8.0\lista 2 ads.AssemblyInfo.cs
+D:\Meu Pc\Programação\Faculdade\Lista 2 Ads\obj\Debug\net8.0\lista 2 ads.csproj.CoreCompileInputs.cache
+D:\Meu Pc\Programação\Faculdade\Lista 2 Ads\obj\Debug\net8.0\lista 2 ads.dll
+D:\Meu Pc\Programação\Faculdade\Lista 2 Ads\obj\Debug\net8.0\refint\lista 2 ads.dll
+D:\Meu Pc\Programação\Faculdade\Lista 2 Ads\obj\Debug\net8.0\lista 2 ads.pdb
+D:\Meu Pc\Programação\Faculdade\Lista 2 Ads\bin\Debug\net8.0\lista 2 ads.exe
+D:\Meu Pc\Programação\Faculdade\Lista 2 Ads\bin\Debug\net8.0\lista 2 ads.deps.json
+D:\Meu Pc\Programação\Faculdade\Lista 2 Ads\bin\Debug\net8.0\lista 2 ads.runtimeconfig.json
+D:\Meu Pc\Programação\Faculdade\Lista 2 Ads\bin\Debug\net8.0\lista 2 ads.dll
+D:\Meu Pc\Programação\Faculdade\Lista 2 Ads\bin\Debug\net8.0\lista 2 ads.pdb
+D:\Meu Pc\Programação\Faculdade\Lista 2 Ads\obj\Debug\net8.0\lista 2 ads.genruntimeconfig.cache
+D:\Meu Pc\Programação\Faculdade\Lista 2 Ads\obj\Debug\net8.0\ref\lista 2 ads.dll
