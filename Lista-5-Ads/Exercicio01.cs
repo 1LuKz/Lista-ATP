@@ -1,43 +1,45 @@
 using System;
 
-public class Exercicio01
+class Exercicio01
 {
-    int[] vetor = new int[20];
-    public void Rodar()
+    public static void Rodar()
     {
-        lerDadosVetor();
-        imprimirDadosVetor();
-        menorDadoVetor();
+        int[] vetor = new int[20];
+        LerElementosVetor(vetor);
+        var (menorElemento, posicao) = EncontrarMenorElemento(vetor);
+        ExibirResultado(menorElemento, posicao);
     }
 
-    public void lerDadosVetor()
+    static void LerElementosVetor(int[] vetor)
     {
-        for (int i = 0; i < 20; i++)
+        Console.WriteLine("Digite os 20 elementos do vetor:");
+
+        for (int i = 0; i < vetor.Length; i++)
         {
-            Console.WriteLine("Informe um número: ");
+            Console.Write("Elemento {0}: ", i + 1);
             vetor[i] = int.Parse(Console.ReadLine());
         }
     }
 
-    public void imprimirDadosVetor()
+    static (int menorElemento, int posicao) EncontrarMenorElemento(int[] vetor)
     {
-        for (int i = 0; i < 20; i++)
-        {
-            Console.WriteLine(i + ") " + vetor[i]);
-        }
-    }
+        int menorElemento = vetor[0];
+        int posicao = 0;
 
-    public void menorDadoVetor()
-    {
-        int pos = 0, menor = vetor[0];
-        for (int i = 1; i < 20; i++)
+        for (int i = 1; i < vetor.Length; i++)
         {
-            if (vetor[i] < menor)
+            if (vetor[i] < menorElemento)
             {
-                menor = vetor[i];
-                pos = i;
+                menorElemento = vetor[i];
+                posicao = i;
             }
         }
-        Console.WriteLine("O menor elemento do Vetor é " + menor +  " e ele está na posição " + pos);
+
+        return (menorElemento, posicao);
+    }
+
+    static void ExibirResultado(int menorElemento, int posicao)
+    {
+        Console.WriteLine("O menor elemento de N é: {0} e sua posição dentro do vetor é: {1}", menorElemento, posicao);
     }
 }

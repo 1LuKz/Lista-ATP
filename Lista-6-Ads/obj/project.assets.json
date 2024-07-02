@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Meu Pc\\Faculdade\\ATP\\Lista-ATP\\Lista-5-Ads\\Lista-5-Ads.csproj",
-      "projectName": "Lista-5-Ads",
-      "projectPath": "D:\\Meu Pc\\Faculdade\\ATP\\Lista-ATP\\Lista-5-Ads\\Lista-5-Ads.csproj",
+      "projectUniqueName": "D:\\Meu Pc\\Faculdade\\ATP\\Lista-ATP\\Lista-6-Ads\\Lista-6-Ads.csproj",
+      "projectName": "Lista-6-Ads",
+      "projectPath": "D:\\Meu Pc\\Faculdade\\ATP\\Lista-ATP\\Lista-6-Ads\\Lista-6-Ads.csproj",
       "packagesPath": "C:\\Users\\lukin\\.nuget\\packages\\",
-      "outputPath": "D:\\Meu Pc\\Faculdade\\ATP\\Lista-ATP\\Lista-5-Ads\\obj\\",
+      "outputPath": "D:\\Meu Pc\\Faculdade\\ATP\\Lista-ATP\\Lista-6-Ads\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lukin\\AppData\\Roaming\\NuGet\\NuGet.Config"
